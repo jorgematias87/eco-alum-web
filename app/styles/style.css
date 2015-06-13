@@ -911,6 +911,59 @@
 		.style-picker-ico { position:absolute; top:25px; left:225px; }
 
 /*helpers*/
+.innerT {
+  padding-top: 20px;
+}
+.innerB {
+  padding-bottom: 20px;
+}
+.innerTB {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.innerL {
+  padding-left: 20px;
+}
+.innerR {
+  padding-right: 20px;
+}
+.innerLR {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.innerAll {
+  padding: 20px;
+}
+.outerT {
+  margin-top: 20px;
+}
+.outerT2x {
+  margin-top: 40px;
+}
+.outerT3x {
+  margin-top: 60px;
+}
+.outerB {
+  margin-bottom: 20px;
+}
+.outerTB {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.outerL {
+  margin-left: 20px;
+}
+.outerR {
+  margin-right: 20px;
+}
+.outerLR {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.outerAll {
+  margin: 20px;
+}
+
 .border-box{
 	box-sizing: border-box;
 }
