@@ -36,6 +36,10 @@ angular
         templateUrl: 'views/contacto.html',
         controller: 'MainCtrl'
       })
+      .when('/productos/cerramientos/balcon-templado', {
+        templateUrl: 'views/balcon-templado.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -19,8 +19,12 @@ input[type=submit], button, input[type=button], .intro-text.type2 a, .intro-text
 /*----*****---- << Border >> ----*****----*/
 
 .partner-carousel li:hover { border:10px solid #9bb95d; }
-.border-title h1, .border-title h2, .border-title h3, .border-title h4, #main-menu > ul > li:hover, #main-menu > ul > li.current_page_item, #main-menu > ul > li.current_page_item.hasSubmenu:hover { border-bottom:5px solid #218A21; }
-.border-title h1 span, .border-title h2 span, .border-title h3 span, .border-title h4 span, #main-menu > ul > li:hover > ul:before { border-bottom:6px solid #218A21; }
+.border-title h1, .border-title h2, .border-title h3, .border-title h4, .border-title h5, .border-title h6, #main-menu > ul > li:hover, #main-menu > ul > li.current_page_item, #main-menu > ul > li.current-menu-ancestor, #main-menu > ul > li.current_page_item.hasSubmenu:hover {
+    border-bottom: 5px solid #218A21;
+}
+.border-title h1 span, .border-title h2 span, .border-title h3 span, .border-title h4 span, .border-title h5 span, .border-title h6 span, #main-menu > ul > li:hover > ul:before {
+    border-bottom: 6px solid #218A21;
+}
 ul.tabs-frame li a.current { border-top:3px solid #218A21; }
 #secondary .widget h3.widgettitle:hover, .portfolio.one-column:hover .portfolio-thumb, .portfolio.one-column-with-sidebar:hover .portfolio-thumb { border-bottom:3px solid #218A21; }
 #main-menu ul li ul { border-top:5px solid #218A21; }
