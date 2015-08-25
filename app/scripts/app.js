@@ -28,8 +28,8 @@ angular
         templateUrl: 'views/about.html',
         controller: 'MainCtrl'
       })
-      .when('/productos/cerramientos/aberturas', {
-        templateUrl: 'views/aberturas.html',
+      .when('/productos/cerramientos/aluminio', {
+        templateUrl: 'views/aluminio.html',
         controller: 'MainCtrl'
       })
       .when('/contacto', {
