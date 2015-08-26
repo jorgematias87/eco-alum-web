@@ -40,7 +40,7 @@
     <div class="wrapper">
       <div ng-include="'views/partials/header.html'"></div>
       <div id="main" class="half">
-        <div ng-view></div>
+        <div ng-view ng-coak></div>
       </div>
       <div ng-include="'views/partials/footer.html'"></div>
     </div><!-- **Wrapper - End** -->
@@ -57,9 +57,9 @@
     </script>
 
     <!-- build:js(.) scripts/vendor.js -->
-  
+    <script src="plugins/jquery.js"></script>
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
@@ -88,7 +88,8 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/directives/ng-pretty.js"></script>
+        <script src="scripts/directives/main-menu.js"></script>
+        <script src="scripts/directives/toggle-accordion.js"></script>
         <!-- endbuild -->
 
 </body>

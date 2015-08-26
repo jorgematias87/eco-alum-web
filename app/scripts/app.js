@@ -40,6 +40,10 @@ angular
         templateUrl: 'views/balcon-templado.html',
         controller: 'MainCtrl'
       })
+      .when('/productos/cerramientos/pvc', {
+        templateUrl: 'views/pvc.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

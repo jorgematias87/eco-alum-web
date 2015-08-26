@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Directive: ngPretty', function () {
+describe('Directive: toggleAccordion', function () {
 
   // load the directive's module
   beforeEach(module('webAngularApp'));
@@ -13,8 +13,8 @@ describe('Directive: ngPretty', function () {
   }));
 
   it('should make hidden element visible', inject(function ($compile) {
-    element = angular.element('<ng-pretty></ng-pretty>');
+    element = angular.element('<toggle-accordion></toggle-accordion>');
     element = $compile(element)(scope);
-    expect(element.text()).toBe('this is the ngPretty directive');
+    expect(element.text()).toBe('this is the toggleAccordion directive');
   }));
 });

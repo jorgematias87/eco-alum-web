@@ -830,7 +830,7 @@
 		.two-third #contact-form textarea { width:95.4%; height:214px; }
 		
 		.fullwidth-map { width:100%; margin:-20px 0px 20px; padding:0px; float:left; clear:both; }
-		.fullwidth-map #map { height:488px; }#contact-form input[type="email"]
+		.fullwidth-map #map { height:488px; }
 		#map { height:374px; margin:0px; position:relative; width:100%; }	
 			
 		#map img { max-width:none !important }		
@@ -991,6 +991,19 @@
 .text-capitalize {
   text-transform: capitalize;
 }
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
 /*end helpers*/
 
 /*Custom*/
@@ -1008,5 +1021,10 @@
 	font-size: 50px;	/* Hacemos crecer la primera letra */
 	margin: 5px 5px 5px 0; /* Y le ponemos un margen cuadrado de 5 píxeles */
 }
+
+.portfolio.three-column:hover a.zoom {
+	left: 40% !important;
+}
+
 /*end Custom*/
 		
