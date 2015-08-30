@@ -365,7 +365,7 @@
 	
 	/*----*****---- << Main >> ----*****----*/
 	
-	#main { width:100%; margin:0px; padding:0px 0px 85px; float:left; }
+	#main { width:100%; margin:0px; padding:0px 0px 30px; float:left; }
 	#main.half{
 		padding-bottom: 40px;
 	}
@@ -1024,6 +1024,38 @@
 
 .portfolio.three-column:hover a.zoom {
 	left: 40% !important;
+}
+
+/*.faq h5.toggle-accordion {
+    line-height: normal !important;
+}*/
+
+#top-bar {
+	position: relative;
+	z-index: 1;
+}
+
+.border-title h1, .border-title h2, .border-title h3, .border-title h4, .border-title h5, .border-title h6{
+	padding: 0px 20px 5px !important;
+}
+
+.contact-details {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.intro-text.sm{
+	padding: 15px 2.5%;
+}
+.intro-text.sm .button{
+	margin: 0
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container { width:90% !important; }
+}
+@media only screen and (max-width: 479px) {
+	.container { width:90% !important; }
 }
 
 /*end Custom*/

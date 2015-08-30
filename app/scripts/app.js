@@ -44,6 +44,14 @@ angular
         templateUrl: 'views/pvc.html',
         controller: 'MainCtrl'
       })
+      .when('/productos/baños/mamparas', {
+        templateUrl: 'views/mamparas.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/baños/refacciones', {
+        templateUrl: 'views/refacciones.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

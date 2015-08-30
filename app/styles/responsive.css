@@ -70,8 +70,8 @@
 		.ls-layer .button-text2 a { font-size:18px; }
 		
 		/*----*****---- << Contact >> ----*****----*/
-		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }	
-		#contact-form textarea { width:96.4%; }
+		/*#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }	
+		#contact-form textarea { width:96.4%; }*/
 		
 		/*----*****---- << Secondary >> ----*****----*/
 		#secondary .widget #searchform input[type="text"] { width:250px; }
@@ -193,11 +193,11 @@
 		.side-nav-container ul li a { font-size:12px; }
 		
 		/*----*****---- << Contact >> ----*****----*/
-		#contact-form input[type="text"], #contact-form input[type="email"] { width:91%; }	
+		/*#contact-form input[type="text"], #contact-form input[type="email"] { width:91%; }	
 		#contact-form textarea { width:95.4%; }
 		
 		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"] { width:86%; }
-		.two-third #contact-form textarea { width:93.4%; }
+		.two-third #contact-form textarea { width:93.4%; }*/
 		
 		/*----*****---- << Secondary >> ----*****----*/
 		#secondary .widget #searchform input[type="text"] { width:160px; }
@@ -349,10 +349,10 @@
 		#secondary .widget #searchform input[type="text"] { width:326px; }
 		
 		/*----*****---- << Contact >> ----*****----*/
-		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
+		/*#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
 		#contact-form textarea { width:92.5%; }
 		#contact-form .column { margin-bottom:0px; }
-		
+*/		
 		#map { height:280px; }
 		.fullwidth-map #map { height:300px; }
 		
@@ -538,8 +538,8 @@
 		#secondary .widget #searchform input[type="text"] { width:103px; }
 		
 		/*----*****---- << Contact >> ----*****----*/
-		#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
-		#contact-form textarea { width:92.5%; }
+		/*#contact-form input[type="text"], #contact-form input[type="email"] { width:93%; }
+		#contact-form textarea { width:92.5%; }*/
 		#contact-form .column { margin-bottom:0px; }
 		
 		.two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:92.4%; }
@@ -549,7 +549,7 @@
 		#map { height:180px; }
 		.fullwidth-map #map { height:200px; }
 		.contact-details { padding-left:20px; padding-right:20px; }
-		#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea, .two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:84%; }
+		/*#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea, .two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"], .two-third #contact-form textarea { width:84%; }*/
 		#contact-form input[type="text"], #contact-form input[type="email"], .two-third #contact-form input[type="text"], .two-third #contact-form input[type="email"] { margin-top:10px; margin-bottom:10px; }
 		.two-third #contact-form input[type="email"], #contact-form input[type="email"] { margin-top:0px; }	
 	}

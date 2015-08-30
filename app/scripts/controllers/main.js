@@ -17,8 +17,12 @@ angular.module('webAngularApp')
       return viewLocation === locationPath;
     };
 
-  	
-    
+    $scope.sideNavActive = 'mamparas';
+
+    $scope.setSideNavItem = function (item){
+      $scope.sideNavActive = item;
+    };
+
     /* Mibile Nav */  
     $scope.mobileMenu = {
       defaultText: 'Navigate to...',
