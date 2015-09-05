@@ -15,7 +15,6 @@ angular.module('webAngularApp')
       	//set initial height
       	setTimeout(function(){
       	  var masonryContainer = (element.height() / 2) + 50;
-      	  console.log(element.height(), masonryContainer);
       	  element.height(masonryContainer);
       	}, 1000);
 
