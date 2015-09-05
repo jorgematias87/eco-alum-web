@@ -31,31 +31,6 @@ function animateSkillBars(){
 
 jQuery(document).ready(function(){
   "use strict";
-
-  //IE - remove height & width 
-    if( !jQuery("html").hasClass('csstransforms') ) {
-      jQuery("body").find('img').each(function(){
-        jQuery(this).removeAttr('width');
-        jQuery(this).removeAttr('height');
-      });
-    }
-    
-    if( mytheme_urls.scroll === "enable") {
-      jQuery("html").niceScroll({zindex:99999,cursorborder:"1px solid #424242"});
-    }
-    
-    jQuery().UItoTop({ easingType: 'easeOutQuart' });
-    
-    jQuery("#main-menu ul:first li").hover(function(){
-      jQuery(this).find('ul:first').stop().fadeIn('slow');
-    },function(){
-      jQuery(this).find('ul:first').stop().fadeOut('fast');
-    });
-    
-    if( mytheme_urls.stickynav === "enable") {
-      jQuery("#header-wrapper").sticky({ topSpacing: 0 });
-    }
-    
   mainmenu();
   
   animateSkillBars();
