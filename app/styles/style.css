@@ -1068,5 +1068,12 @@
 	margin: 10px 0;
 }
 
+.breadcrumb-section.masonry{
+	float: none;
+}
+.masonry-brick{
+	margin-bottom: 20px;
+}
+
 /*end Custom*/
 		

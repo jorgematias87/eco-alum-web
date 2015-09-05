@@ -101,6 +101,8 @@ angular.module('webAngularApp')
       autoplay_slideshow: false,
       social_tools: false,
       deeplinking:false
-    }
+    };
+
+    $scope.masonryOptions= {columnWidth: '.one-half', percentPosition: true, gutter: 20};
 
   });
