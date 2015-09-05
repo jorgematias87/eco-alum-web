@@ -38,9 +38,8 @@
             <nav id="main-menu" main-menu>
             	<ul ui-jq="mobileMenu" ui-options="mobileMenu">
                 	<li ng-class="{ 'current_page_item': isActive('/')}"> <a href="#/" title=""> Home </a> <span> </span></li>
-                    <li ng-class="{ 'current_page_item': isActive('/quienes-somos')}"> <a href="#/quienes-somos" title=""> Quienes somos </a> <span> </span> </li>
                     <li ng-class="{ 'current_page_item': isActive('/productos')}"> <a href=""> Productos </a> <span> </span> 
-                    	<ul>
+                        <ul>
                             <li>
                                 <a href="">Cerramientos</a>
                                 <ul>
@@ -50,14 +49,31 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#/productos/baños">Baños</a>
+                                <a href>Baños</a>
                                 <ul>
-                                    <li><a href="#/productos/baños/mamparas">Mamparas</a></li>
-                                    <li><a href="#/productos/baños/refacciones">Refacciones</a></li>
+                                    <li><a href="#/productos/banios/mamparas">Mamparas</a></li>
+                                    <li><a href="#/productos/banios/refacciones">Refacciones</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Pintura</a>
+                                <ul>
+                                    <li><a href="#/productos/pintura/exterior">Exterior</a></li>
+                                    <li><a href="#/productos/pintura/interior">Interior</a></li>
                                 </ul>
                             </li>   
+                            <li>
+                                <a href="">Durlock</a>
+                                <ul>
+                                    <li><a href="#/productos/durlock/paredes">Paredes</a></li>
+                                    <li><a href="#/productos/durlock/revestimientos">Revestimientos</a></li>
+                                    <li><a href="#/productos/durlock/cielorasos">Cielorasos</a></li>
+                                </ul>
+                            </li>
                        </ul>
                     </li>
+                    <li ng-class="{ 'current_page_item': isActive('/quienes-somos')}"> <a href="#/quienes-somos" title=""> Quienes somos </a> <span> </span> </li>
+                    <li ng-class="{ 'current_page_item': isActive('/testimonios')}"><a href="#/testimonios">Testimonios</a><span> </span> </li>
                     <li ng-class="{ 'current_page_item': isActive('/contacto')}"> <a href="#/contacto" title=""> Contacto </a> <span> </span></li>
                 </ul>
             </nav><!-- **Navigation - End** -->      

@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'MainCtrl'
       })
+      .when('/testimonios', {
+        templateUrl: 'views/testimonios.html',
+        controller: 'MainCtrl'
+      })
       .when('/productos/cerramientos/aluminio', {
         templateUrl: 'views/aluminio.html',
         controller: 'MainCtrl'
@@ -44,12 +48,32 @@ angular
         templateUrl: 'views/pvc.html',
         controller: 'MainCtrl'
       })
-      .when('/productos/baños/mamparas', {
+      .when('/productos/banios/mamparas', {
         templateUrl: 'views/mamparas.html',
         controller: 'MainCtrl'
       })
-      .when('/productos/baños/refacciones', {
+      .when('/productos/banios/refacciones', {
         templateUrl: 'views/refacciones.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/pintura/exterior', {
+        templateUrl: 'views/pintura-exterior.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/pintura/interior', {
+        templateUrl: 'views/pintura-interior.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/durlock/paredes', {
+        templateUrl: 'views/durlock-paredes.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/durlock/revestimientos', {
+        templateUrl: 'views/durlock-revestimientos.html',
+        controller: 'MainCtrl'
+      })
+      .when('/productos/durlock/cielorasos', {
+        templateUrl: 'views/durlock-cielorasos.html',
         controller: 'MainCtrl'
       })
       .otherwise({
