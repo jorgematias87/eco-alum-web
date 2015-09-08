@@ -66,13 +66,13 @@ angular.module('webAngularApp')
     };
 
     /*Google Maps*/
-    $scope.mapConfig = {
+    /*$scope.mapConfig = {
         addres: 'Av. Nazca 1025, Buenos Aires, Capital Federal',
         zoom: 16,
         markers: [ {
           address: 'Av. Nazca 1025, Buenos Aires, Capital Federal'
         }]
-      };
+      };*/
 
     /*Portfolio Carousel*/
     $scope.carouselOptions = {
